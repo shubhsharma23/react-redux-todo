@@ -1,0 +1,2 @@
+export const ADD_POLICY = "ADD_POLICY"
+export const PURCHASE_POLICY = "PURCHASE_POLICY"
