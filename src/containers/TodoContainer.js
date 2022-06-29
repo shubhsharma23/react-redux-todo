@@ -1,10 +1,12 @@
 import { connect } from 'react-redux'
 import Todo from '../Todo'
-import { addPolicy, purchasePolicy } from '../services/actions/action'
+import { addPolicy, purchasePolicy, surrenderPolicy, dropPolicy } from '../services/actions/action'
 
 const mapDispatchToProps = dispatch => ({
-    addPoicyHandler: data => dispatch(addPolicy(data)),
+    addPolicyHandler: data => dispatch(addPolicy(data)),
     purchasePolicyHandler: key => dispatch(purchasePolicy(key)),
+    surrenderPolicyHandler: key => dispatch(surrenderPolicy(key)),
+    dropPolicyHandler: key => dispatch(dropPolicy(key)),
 })
 
 const mapStateToProps = state => ({

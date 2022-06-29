@@ -1,2 +1,4 @@
 export const ADD_POLICY = "ADD_POLICY"
 export const PURCHASE_POLICY = "PURCHASE_POLICY"
+export const SURRENDER_POLICY = "REMOVE_POLICY"
+export const DROP_POLICY = "DROP_POLICY"
